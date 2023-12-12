@@ -1,0 +1,11 @@
+
+.ads {
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+}

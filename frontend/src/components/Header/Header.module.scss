@@ -9,7 +9,7 @@
 }
 .box_search {
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: var(--radius-5);
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@
         outline: none;
         padding: 5px;
         margin: 1px;
-        border-radius: 5px;
+        border-radius: var(--radius-5);
         background: var(--bg-primary);
         color: var(--text-white);
     }
@@ -113,7 +113,7 @@
   .input {
     width: 150px;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: var(--radius-50);
     border: solid 1px #333;
     transition: all .2s ease-in-out;
     outline: none;
@@ -127,7 +127,7 @@
     color: var(--text-white);
     padding: 10px;
     background: red;
-    border-radius: 50%;
+    border-radius: var(--radius-tr);
     cursor: pointer;
   }
   
